@@ -30,6 +30,6 @@ To evaluate the policies:
 2. Run the evaluation script:
 `python evaluate.py`
 
-You should see a window appear like this:
+You should see a window appear like below. The left image is the entire world, and the right image is the observation of one of the focal agents. Press space to step through the episode. Press q to end the episode.
 
 ![Final Results](sample_image.PNG)
