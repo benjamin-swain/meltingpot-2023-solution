@@ -6,14 +6,14 @@ This repository contains my submission for the Melting Pot 2023 Competition and 
 
 Follow these steps to set up the environment:
 
-### Creating a Conda Environment
+### Create Conda Environment
 
 1. Create a Conda environment with Python 3.10:
 `conda create -n marlshmallows_env python=3.10.12`
 2. Activate the newly created environment:
 `conda activate marlshmallows_env`
 
-### Installing Necessary Packages
+### Install Necessary Packages
 
 1. Navigate to the project directory
 `cd path/to/meltingpot-2023-solution`
