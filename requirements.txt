@@ -4,7 +4,6 @@ numpy==1.24.3
 opencv_python==4.8.0.76
 pandas==2.1.4
 psutil==5.9.5
-ray==2.6.1
+ray[rllib]==2.6.1
 setuptools==68.0.0
-./feature_detector_territory
-./feature_detector_clean_up
+gymnasium==0.26.3

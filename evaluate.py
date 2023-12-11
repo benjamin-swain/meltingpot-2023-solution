@@ -16,10 +16,10 @@ from hard_code_al_harvest import HardCodeAlHarvestPolicy
 from hard_code_pd_arena import HardCodePDArenaPolicy
 from hard_code_clean_up import HardCodeCleanUpPolicy
 from hard_code_territory import HardCodeTerritoryPolicy
-from trained_policy import TrainedPolicy
+# from trained_policy import TrainedPolicy
 
 # USER INPUT                                                                                       
-scenario = 'allelopathic_harvest__open_0'                                   
+scenario = 'territory__rooms_0'                                   
 render_world = True
 report_score = True
 downsample_render = False
