@@ -221,7 +221,7 @@ def render_rgb(rgb_frame, additional_frame=None, downsample=False):
     else:
         combined = rgb_frame_show
 
-    cv2.imshow('Combined Images', combined)
+    cv2.imshow('Melting Pot', combined)
 
     key = cv2.waitKey(0) & 0xFF
     if key == ord('q'):

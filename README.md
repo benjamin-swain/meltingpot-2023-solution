@@ -29,3 +29,6 @@ To evaluate the policies:
 1. Open `evaluate.py` and adjust the user settings at the top of the file.
 2. Run the evaluation script:
 `python evaluate.py`
+
+You should see a window appear like this:
+![Final Results](sample_image.png)
