@@ -4,9 +4,6 @@ import dm_env
 import numpy as np
 import random
 
-# FOR VIEWING
-import matplotlib.pyplot as plt
-
 def print(*args, **kwargs):
     pass
 

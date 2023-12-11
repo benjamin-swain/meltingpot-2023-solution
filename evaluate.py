@@ -31,7 +31,7 @@ num_workers = 1
 
 
 substrate_to_policy = {
-    'allelopathic_harvest__open': TrainedPolicy,#HardCodeAlHarvestPolicy,
+    'allelopathic_harvest__open': HardCodeAlHarvestPolicy, #TrainedPolicy
     'prisoners_dilemma_in_the_matrix__arena': HardCodePDArenaPolicy, 
     'clean_up': HardCodeCleanUpPolicy,
     'territory__rooms': HardCodeTerritoryPolicy,
@@ -111,7 +111,7 @@ def _downsample_multi_timestep(timestep, scaled):
         } for observation in timestep.observation])
 
 def get_normalization_scores():
-    mp2res = pd.read_feather('/home/ben/projects/meltingpot-2023-starter-kit/meltingpot-results-2.1.1.feather')
+    mp2res = pd.read_feather('meltingpot-results-2.1.1.feather')
     substrate_names = [
         'clean_up',
         'territory__rooms',

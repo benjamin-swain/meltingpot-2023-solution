@@ -34,7 +34,7 @@ class TrainedPolicy(Policy):
         Trained policy class where observation is a flattened 11x11x3 RGB image with values normalized between -1 and 1
     """
     def __init__(self, policy_id):
-        policy_path = '/home/ben/projects/training_output/ppo_al_harvest_v10/torch/al_harvest/PPO_meltingpot_0ac68_00000_0_2023-10-23_21-16-02/checkpoint_003712/policies/default_policy'
+        policy_path = 'al_harvest_checkpoint/'
         self._policy = RayPolicy.from_checkpoint(policy_path)
         self.substrate_name = None
         self.policy_id = policy_id
