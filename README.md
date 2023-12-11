@@ -1,6 +1,6 @@
 # Melting Pot 2023 Competition Submission - Team Marlshmallows
 
-This repository contains my submission for the Melting Pot 2023 Competition. Detailed information about my solution strategy can be found in the document [Team Marlshmallows Melting Pot 2023 Solution.pdf](Team%20Marlshmallows%20Melting%20Pot%202023%20Solution.pdf).
+This repository contains my submission for the Melting Pot 2023 Competition and all necessary code to evaluate it. Detailed information about my solution strategy can be found in the document [Team Marlshmallows Melting Pot 2023 Solution.pdf](Team%20Marlshmallows%20Melting%20Pot%202023%20Solution.pdf).
 
 ## Setup Guide
 
