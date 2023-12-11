@@ -31,4 +31,4 @@ To evaluate the policies:
 `python evaluate.py`
 
 You should see a window appear like this:
-![Final Results](sample_image.png)
+![Final Results](sample_image.PNG)
