@@ -4,7 +4,7 @@ This repository contains my submission for the Melting Pot 2023 Competition and 
 
 ## Setup Guide
 
-Follow these steps to set up the environment:
+It's recommended to use Ubuntu 20.04. macOS users might run into installation errors. Follow these steps to set up the environment:
 
 ### Create Conda Environment
 
