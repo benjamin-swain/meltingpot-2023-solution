@@ -7,3 +7,4 @@ psutil==5.9.5
 ray[rllib]==2.6.1
 setuptools==68.0.0
 gymnasium==0.26.3
+torch==2.0.1
