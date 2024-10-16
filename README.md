@@ -15,12 +15,18 @@ It's recommended to use Ubuntu 20.04. macOS users might run into installation er
 
 ### Install Necessary Packages
 
-1. Navigate to the project directory
-`cd path/to/meltingpot-2023-solution`
-2. Make the installation script executable:
-`chmod +x install.sh`
-3. Run the installation script
-`./install.sh`
+1. Ensure system dependencies are installed by running:
+   `sudo apt update`
+   `sudo apt install -y build-essential`
+
+2. Navigate to the project directory:
+   `cd path/to/meltingpot-2023-solution`
+
+3. Make the installation script executable:
+   `chmod +x install.sh`
+
+4. Run the installation script:
+   `./install.sh`
 
 ## Evaluate Policies
 
